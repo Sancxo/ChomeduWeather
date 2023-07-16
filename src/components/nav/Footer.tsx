@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer>
       <hr />
-      <p>&copy; <a href="https://simontirant.dev/" target="_blank" rel="noreferrer">Simon Tirant</a> ${currentYear}</p>
+      <p>&copy; <a href="https://simontirant.dev/" target="_blank" rel="noreferrer">Simon Tirant</a> {currentYear}</p>
     </footer>
   )
 }
