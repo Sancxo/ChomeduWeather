@@ -17,3 +17,15 @@
 .fs-3 {
   font-size: 3rem;
 }
+
+q {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+q::before {
+  content: "«";
+}
+
+q::after {
+  content: "»";
+}
