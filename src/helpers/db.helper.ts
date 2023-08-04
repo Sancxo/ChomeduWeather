@@ -40,7 +40,7 @@ async function saveGroundTruth(timePeriod: string, value: string) {
 
 async function getAllPredictions() {
   try {
-    const { data, error } = await supabase.from('predictions').select("*");
+    const { data, error } = await supabase.from('predictions').select("*").order("time_period", { ascending: false });
 
     if (error) throw error;
     else return data;
