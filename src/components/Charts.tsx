@@ -4,7 +4,7 @@ import { Chart1975 } from "./charts/Chart1975"
 export const Charts = () => {
   return (
     <div id="chart-container" className="my-2">
-      <h3>Fun with charts:</h3>
+      <h3>Data visualisation:</h3>
 
       <h4>Graphique des chiffres du chômage de 1975 à nos jours</h4>
       <Chart1975>Un problème à eu lieu lors du chargement du graphique ...</Chart1975>
