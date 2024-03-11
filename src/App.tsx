@@ -23,7 +23,7 @@ function App() {
       const [year, quarter] = data[i].time_period.split("-");
 
       // We check if the nestedDataTable has value for this time period
-      if (nestedDataTable[year][quarter]) saveGroundTruth(data[i].time_period, nestedDataTable[year][quarter])
+      if (nestedDataTable[year] && nestedDataTable[year][quarter]) saveGroundTruth(data[i].time_period, nestedDataTable[year][quarter])
     }
   }
 
